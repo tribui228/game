@@ -1,0 +1,91 @@
+{
+  "id": "5798a7ad-11bb-43f6-b1bc-b6e3ef05be18",
+  "version": "2.0",
+  "name": "test search",
+  "url": "http://localhost/game/",
+  "tests": [{
+    "id": "a218e528-d7e3-4385-96ec-20cc0a8f776f",
+    "name": "TC-TK1",
+    "commands": [{
+      "id": "18bcff49-58fb-4eec-bd82-4dd968d4dffe",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2a0dfce-6e95-4592-8d06-8883a9614adf",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search-bar']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5612bbe-d9d0-4c84-9e2a-b2fb427a0a98",
+      "comment": "",
+      "command": "submit",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search-bar']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dad7dc17-9ebf-4805-a936-8b21af33a43c",
+    "name": "TC-TK2",
+    "commands": [{
+      "id": "dbf7fbe1-34f7-4c81-9d95-9163687c480f",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a5b5472-1672-46dd-a74b-d1cd8e12a93e",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search-bar']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "grand"
+    }, {
+      "id": "7dbfbbe4-39cf-4e2d-8a45-157f76d7bcf7",
+      "comment": "",
+      "command": "submit",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search-bar']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "74003dbe-0c37-4301-832a-0f76807eb9a5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a218e528-d7e3-4385-96ec-20cc0a8f776f"]
+  }],
+  "urls": ["http://localhost/game/"],
+  "plugins": []
+}

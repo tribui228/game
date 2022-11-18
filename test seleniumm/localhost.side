@@ -1,0 +1,235 @@
+{
+  "id": "ce7b597b-de77-4b01-a5df-3a47bd1c0491",
+  "version": "2.0",
+  "name": "http://localhost/game/cart/",
+  "url": "http://localhost/game/",
+  "tests": [{
+    "id": "8b89ec4d-acce-4287-8b9f-c88ede6e2caa",
+    "name": "TC-GH1",
+    "commands": [{
+      "id": "2ccacf37-c9e1-4922-b003-7cdece3493ee",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc6b4b60-6e2f-4d65-bb1e-60e02f96df81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.news .disable-select:nth-child(1) .card-quick-add",
+      "targets": [
+        ["css=.news .disable-select:nth-child(1) .card-quick-add", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2910530e-8eb6-43b3-a706-d1fe01d6ba11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/cart/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cba6fe62-59a0-4e65-935e-57db21895b33",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart-edit-information",
+      "targets": [
+        ["id=cart-edit-information", "id"],
+        ["css=#cart-edit-information", "css:finder"],
+        ["xpath=//button[@id='cart-edit-information']", "xpath:attributes"],
+        ["xpath=//div[@id='cart']/div[2]/div[2]/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Full fill your information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5935c543-e16c-467a-8b9e-c46f240a9784",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-firstname",
+      "targets": [
+        ["id=user-firstname", "id"],
+        ["css=#user-firstname", "css:finder"],
+        ["xpath=//input[@id='user-firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='add-user-form']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc8d2b19-da24-4638-8fdd-d302c4ddc4ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-lastname",
+      "targets": [
+        ["id=user-lastname", "id"],
+        ["css=#user-lastname", "css:finder"],
+        ["xpath=//input[@id='user-lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='add-user-form']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d22bd597-7fef-4987-8efa-e766d008fc78",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-email",
+      "targets": [
+        ["id=user-email", "id"],
+        ["css=#user-email", "css:finder"],
+        ["xpath=//input[@id='user-email']", "xpath:attributes"],
+        ["xpath=//form[@id='add-user-form']/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4c7d9c1-f597-4c84-b514-24caa784da17",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-phone",
+      "targets": [
+        ["id=user-phone", "id"],
+        ["css=#user-phone", "css:finder"],
+        ["xpath=//input[@id='user-phone']", "xpath:attributes"],
+        ["xpath=//form[@id='add-user-form']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f6545be-bb0b-4e27-9729-c88889f511a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-birth",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db3429da-6781-4339-b99d-637565a1a98b",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-address",
+      "targets": [
+        ["id=user-address", "id"],
+        ["css=#user-address", "css:finder"],
+        ["xpath=//input[@id='user-address']", "xpath:attributes"],
+        ["xpath=//form[@id='add-user-form']/div/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fa3248a-7214-4388-8fa1-4275326d5a47",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=user-confirm",
+      "targets": [
+        ["id=user-confirm", "id"],
+        ["css=#user-confirm", "css:finder"],
+        ["xpath=//button[@id='user-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='add-user-form']/div/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31466fa6-5459-4643-8931-7e9945718300",
+    "name": "TC-GH2",
+    "commands": [{
+      "id": "ec941111-fc1a-461e-9268-322e58ce7f3c",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8310ce92-bb73-43dc-b2eb-9b56a1e636ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/cart/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e7122cb7-ce7c-46f1-a4fd-a8a476a7ac78",
+    "name": "TC-GH3",
+    "commands": [{
+      "id": "38989fb4-1c23-4419-9f62-8b183b2ce12b",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f389ed4-0df0-4c07-892c-e4b0cd50390f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.news .disable-select:nth-child(1) .card-quick-add",
+      "targets": [
+        ["css=.news .disable-select:nth-child(1) .card-quick-add", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9c34611-1f1d-41c9-940d-f64f02b3c23a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2bfb3612-e4f9-4707-9e63-5af6c6e9b062",
+    "name": "TC-GH4",
+    "commands": [{
+      "id": "c02c1cbb-662a-4b37-9c4e-7aad8c29f7de",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0133152-f933-45a2-a7b3-96d1efafb4dc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cart",
+      "targets": [
+        ["linkText=Cart", "linkText"],
+        ["css=.active > .nav-link", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "355955df-9e18-4bba-ade1-2e7ad94bb88f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8b89ec4d-acce-4287-8b9f-c88ede6e2caa"]
+  }],
+  "urls": ["http://localhost/game/cart/", "http://localhost/game/"],
+  "plugins": []
+}

@@ -1,0 +1,281 @@
+{
+  "id": "dd107808-cc01-453a-9001-f10171b0af6d",
+  "version": "2.0",
+  "name": "test login",
+  "url": "http://localhost/game/",
+  "tests": [{
+    "id": "7f459a2c-3618-444c-9613-16b45fcd9b49",
+    "name": "TC-DN4",
+    "commands": [{
+      "id": "4255560f-1f4f-4b66-afaf-8d6629d10ef1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a95aacf0-69a1-4085-ac58-dfa0c866cbe7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.font-weight-bold > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='header-bar']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/login/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcf08343-b90f-4b68-bca6-1673591a72f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e3ff0ab-864c-4e2b-9e8b-e012a3a9ded0",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86ef6777-426a-4e92-bce5-f04ffaa21ed4",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=login-confirm",
+      "targets": [
+        ["id=login-confirm", "id"],
+        ["css=#login-confirm", "css:finder"],
+        ["xpath=//button[@id='login-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOG IN NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a5c1480b-98a6-4aee-aa8c-313ccc7a25b6",
+    "name": "TC-DN3",
+    "commands": [{
+      "id": "7e9257d7-b5d1-4a30-87e6-1c8f1d6efbeb",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bdc60c8-4809-4478-87a8-9dad6a783929",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.font-weight-bold > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='header-bar']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/login/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c864ba2-e952-47d9-8f08-c535a290faff",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc30f06c-c788-4efd-b5e4-41a36dc978f5",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "bf3a9613-748e-4245-b6c7-3878ab2b556c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=login-confirm",
+      "targets": [
+        ["id=login-confirm", "id"],
+        ["css=#login-confirm", "css:finder"],
+        ["xpath=//button[@id='login-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOG IN NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bb723223-3020-4b2e-b3ed-12f0e8294e10",
+    "name": "TC-DN2",
+    "commands": [{
+      "id": "2760d29f-3562-4312-a4b0-fd1898e8f174",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f943ff0-171d-4c55-9066-98c2ee363857",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.font-weight-bold > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='header-bar']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/login/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c55b72-05b8-4401-a29f-979bb8b269ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "minhtri1"
+    }, {
+      "id": "2496c9f5-fbdd-4cd3-93f9-215c9b5bd229",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0807962f-175a-45a4-a5d8-c311b0e33eb0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=login-confirm",
+      "targets": [
+        ["id=login-confirm", "id"],
+        ["css=#login-confirm", "css:finder"],
+        ["xpath=//button[@id='login-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOG IN NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80573c23-b7f1-4a83-bb25-f94cbb9ad48d",
+    "name": "TC-DN1",
+    "commands": [{
+      "id": "1999cf90-ea18-43a2-bd01-851a361775e0",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92a1f409-2755-4e6a-9fd3-24f47bc422b5",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.font-weight-bold > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='header-bar']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/game/login/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "039e9959-90ca-400a-b7a9-71a5efc2171c",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-username",
+      "targets": [
+        ["id=login-username", "id"],
+        ["css=#login-username", "css:finder"],
+        ["xpath=//input[@id='login-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "minhtri1"
+    }, {
+      "id": "2717d391-91c0-4fe1-910a-5afeccee4a45",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password",
+      "targets": [
+        ["id=login-password", "id"],
+        ["css=#login-password", "css:finder"],
+        ["xpath=//input[@id='login-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "fca413dd-00e0-441a-a7f4-d0d809509921",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=login-confirm",
+      "targets": [
+        ["id=login-confirm", "id"],
+        ["css=#login-confirm", "css:finder"],
+        ["xpath=//button[@id='login-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOG IN NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0d23b369-745a-4810-8985-d8acd82494d5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f459a2c-3618-444c-9613-16b45fcd9b49"]
+  }],
+  "urls": ["http://localhost/game/"],
+  "plugins": []
+}
